@@ -3,11 +3,6 @@ package user_interface;
 import widget.Widget1;
 import widget.Widget2;
 
-// an enumeration of application themes
-enum AppTheme{
-	LightTheme, DarkTheme
-}
-
 /* This class contains methods to build and display a screen  */
 public class Screen{
 	

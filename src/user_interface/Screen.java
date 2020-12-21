@@ -1,7 +1,7 @@
-package user_interface;
+package src.user_interface;
 
-import widget.Widget1;
-import widget.Widget2;
+import src.widget.Widget1;
+import src.widget.Widget2;
 
 /* This class contains methods to build and display a screen  */
 public class Screen{
@@ -29,7 +29,7 @@ public class Screen{
 	
 	public void showScreen(){
 		System.out.println("Screen title :" + this.screenTitle);
-		if(theme == AppTheme.LightTheme)
+		if(this.theme == AppTheme.LightTheme)
 			System.out.println("Screen theme is light");
 		else
 			System.out.println("Screen theme is dark");
